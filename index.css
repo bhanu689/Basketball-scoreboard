@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 500px; 
+    height: auto;
+    padding: 20px;
+    border: 2px solid #1B244A;
+    background-color: #1B244A;
+    color: white;
+    font-weight: 700;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.para {
+    background: #080001;
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    margin: 10px 0;
+}
+
+.btn {
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px; 
+    align-items: center;
+}
